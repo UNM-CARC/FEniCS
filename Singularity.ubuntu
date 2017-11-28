@@ -1,5 +1,5 @@
-# MPI Ubuntu Package for running on CARC Wheeler - derived from initial UUtah CHPC 
-# package specification at:
+# MPI Ubuntu Package for running FEniCS on CARC Wheeler - derived from initial UUtah 
+# CHPC package specification at:
 # https://github.com/CHPC-UofU/Singularity-ubuntu-mpi/blob/master/Singularity
 
 Bootstrap: docker
