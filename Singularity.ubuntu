@@ -3,7 +3,7 @@
 # https://github.com/CHPC-UofU/Singularity-ubuntu-mpi/blob/master/Singularity
 
 Bootstrap: docker
-From: ubuntu:latest
+From: ubuntu:17.04
 
 %post
 	# Wheeler mount points
