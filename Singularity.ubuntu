@@ -1,7 +1,8 @@
 # MPI Ubuntu Package for running FEniCS on CARC Wheeler - derived from initial UUtah 
 # CHPC package specification at:
 # https://github.com/CHPC-UofU/Singularity-ubuntu-mpi/blob/master/Singularity
-
+# Rebuild trigger edit...
+#
 Bootstrap: docker
 From: ubuntu:17.04
 
