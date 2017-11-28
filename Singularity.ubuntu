@@ -57,11 +57,8 @@ From: ubuntu:17.04
     apt-get install -y libtool autoconf automake build-essential ibutils ibverbs-utils rdmacm-utils infiniband-diags perftest librdmacm-dev libibverbs-dev libmlx4-1 numactl libnuma-dev autoconf automake gcc g++ git libtool pkg-config
     apt-get install -y libnl-3-200 libnl-route-3-200 libnl-route-3-dev libnl-utils
 
-    # git, wget, ncurses
-    apt-get install -y git wget libncurses5-dev 
-
-    # mpich
-    apt-get install -y mpich libmpich-dev
+    # git, wget, ncurses, ssh (openmpi requires ssh...)
+    apt-get install -y git wget libncurses5-dev ssh
 
     # fenics
     add-apt-repository ppa:fenics-packages/fenics
