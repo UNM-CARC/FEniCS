@@ -58,7 +58,7 @@ From: ubuntu:17.04
     apt-get install -y libnl-3-200 libnl-route-3-200 libnl-route-3-dev libnl-utils
 
     # git, wget, ncurses, ssh (openmpi requires ssh...)
-    apt-get install -y git wget libncurses5-dev ssh
+    apt-get install -y git wget ssh
 
     # fenics
     add-apt-repository ppa:fenics-packages/fenics
