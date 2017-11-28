@@ -63,6 +63,8 @@ From: ubuntu:latest
     apt-get install -y mpich libmpich-dev
 
     # fenics
+    add-apt-repository ppa:fenics-packages/fenics
+    apt-get update
     apt-get -y install python-numpy python-scipy python-matplotlib ipython python-h5py
     apt-get -y --no-install-recommends install fenics petsc mshr
     apt-get -y -o Dpkg::Options::="--force-confold"  dist-upgrade
